@@ -1,0 +1,10 @@
+def trailing(number):			
+    trailing = 0			1
+    while number > 1:			n
+        number = number // 5		n
+        trailing = number + trailing	n
+    return(trailing)			1
+
+1+n+n+n+1 = 3n+2
+
+O(n)

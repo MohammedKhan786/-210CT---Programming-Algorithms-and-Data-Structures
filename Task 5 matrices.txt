@@ -1,0 +1,6 @@
+R=B*C+2(B+C)
+R1<-matrices(B*C)		1
+R2<-matrices(B+C)		1
+R3<-matrices(2*R2)		1
+
+O(3)

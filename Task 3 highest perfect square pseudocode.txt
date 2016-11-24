@@ -1,0 +1,12 @@
+input number
+
+N <- 0
+square <- 0
+
+while Number > square
+	N <- N + 1
+	square <- N x N
+
+N <- N - 1
+square <- N x N
+print square

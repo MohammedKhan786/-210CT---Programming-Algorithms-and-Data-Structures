@@ -1,0 +1,16 @@
+import random						1
+shuffled=[]						1
+
+def shuffle(L):
+    while len(L) > 0:					n
+        remaining = len(L) - 1				n
+        index = random.randint(0, remaining)		n
+        num = L.pop(index)				n
+        shuffled.append(num)				n
+        if len(L) == 0:					n
+            return shuffled				1
+
+
+1+1+n+n+n+n+n+n+1 = 6n+1
+
+O(n)
