@@ -1,0 +1,22 @@
+FUNCTION binarysearch(L, low, hight)
+	if lenth of L = 0 then
+		return false
+	
+	start <- 0
+	end <- lenth of L -1
+
+	while start is less then end
+		midpoint <- (start+end) dividing 2
+	if low is less then midpoint and hight is grathe then midpoint
+		return true
+	elif hight is less then midpiont then
+		end <- minpoint -1
+	elif low is grathe then midpiont then
+		end <- minpoint +1
+	else 
+		return false
+	
+	if low is less then midpoint and hight is grathe then midpoint
+		return true
+	else 
+		return false
