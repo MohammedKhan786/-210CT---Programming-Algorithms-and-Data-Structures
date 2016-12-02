@@ -1,4 +1,4 @@
-def primecheck (N)
+FUNCTION primecheck (N)
 	if N = 2 then
 		return ture
 	elif N less then 2 of N%2 = 0 then
@@ -7,7 +7,7 @@ def primecheck (N)
 		check <- N - 1
 		prime(N, check)
 
-def prime (N, check):
+FUNCTION prime (N, check):
 	remainder <- N % check
 	if remainder = 0 then
 		return false
