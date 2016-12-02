@@ -2,7 +2,7 @@
 
 def trailing(number):
     trailing = 0
-    #divide by 5 and add up the answer untill the answer is 1
+    #divide by 5 and add up the answer until the answer is 1
     while number > 1:
         number = number // 5
         trailing = number + trailing
