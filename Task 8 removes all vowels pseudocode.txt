@@ -1,0 +1,17 @@
+FUNCTION removevowels (S)
+	if lenth of s = 0 then
+		return s
+	if s[0] = a or s[0] = A then
+		return removevowels(S[1:])
+	elif s[0] = e or s[0] = E then
+		return removevowels(S[1:])
+	elif s[0] = i or s[0] = I then
+		return removevowels(S[1:])
+	elif s[0] = o or s[0] = O then
+		return removevowels(S[1:])
+	elif s[0] = u or s[0] = U then
+		return removevowels(S[1:])
+	else
+		return s[0] and removevowels(S[1:])
+
+	
