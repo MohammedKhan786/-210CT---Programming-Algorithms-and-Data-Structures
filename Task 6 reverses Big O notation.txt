@@ -1,0 +1,14 @@
+LReverse=[]					1
+
+def reverse(I):
+    L = I.split()				1
+    while len(L) > 0:				n
+        remaining = len(L) - 1			n
+        num = L.pop(remaining)			n
+        LReverse.append(num)			n
+        if len(L) == 0:				n
+            return LReverse			1
+
+1+1+n+n+n+n+n+1 = 5n+3
+
+o(n)
