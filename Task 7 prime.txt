@@ -1,0 +1,18 @@
+def primecheck (N)
+	if N = 2 then
+		return ture
+	elif N less then 2 of N%2 = 0 then
+		return false
+	else
+		check <- N - 1
+		prime(N, check)
+
+def prime (N, check):
+	remainder <- N % check
+	if remainder = 0 then
+		return false
+	elif check is less then 2 then
+		return true
+	else
+		check <- check - 1
+		prime(N, check)
