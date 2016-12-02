@@ -1,3 +1,5 @@
+#Write a function that randomly shuffles an array of integers and explain the rationale behind its implementation.
+
 import random
 shuffled=[]
 
@@ -9,7 +11,3 @@ def shuffle(L):
         shuffled.append(num)
         if len(L) == 0:
             return shuffled
-
-
-        
-
