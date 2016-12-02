@@ -1,7 +1,7 @@
 def binarysearch(L, low, hight):
 
     if len(L) == 0:
-        return false
+        return False
 
     start = 0
     end = len(L)-1
