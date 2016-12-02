@@ -1,0 +1,10 @@
+LReverse <- new list
+
+def reverse(I)
+	L <- split I
+	while lenth of L is greater then 0
+		remaining <- lenth of L -1
+		num<- L pop remaining
+		LReverse append num
+		if lenth of L = 0
+			return LReverse
