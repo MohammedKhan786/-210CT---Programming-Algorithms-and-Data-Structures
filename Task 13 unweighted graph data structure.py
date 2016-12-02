@@ -7,8 +7,8 @@ class Vertex:
 class Graph:
     vertices = {}
 
-    def add_vertex(self, vertex):
-        self.vertices[vertex.name] = vertex
+    def add_node(self, node):
+        self.vertices[node.name] = node
 			
     def add_edge(self, u, v):
         if u in self.vertices and v in self.vertices:
@@ -20,15 +20,15 @@ class Graph:
             print(key + str(self.vertices[key].neighbors))
 
 g = Graph()
-g.add_vertex(Vertex('A'))
-g.add_vertex(Vertex('B'))
-g.add_vertex(Vertex('C'))
-g.add_vertex(Vertex('D'))
-g.add_vertex(Vertex('E'))
-g.add_vertex(Vertex('F'))
-g.add_vertex(Vertex('G'))
-g.add_vertex(Vertex('H'))
-g.add_vertex(Vertex('I'))
+g.add_node(Vertex('A'))
+g.add_node(Vertex('B'))
+g.add_node(Vertex('C'))
+g.add_node(Vertex('D'))
+g.add_node(Vertex('E'))
+g.add_node(Vertex('F'))
+g.add_node(Vertex('G'))
+g.add_node(Vertex('H'))
+g.add_node(Vertex('I'))
 
 g.add_edge('A', 'B')
 g.add_edge('A', 'D')
