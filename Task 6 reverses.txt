@@ -1,6 +1,6 @@
 LReverse <- new list
 
-def reverse(I)
+FUNCTION reverse(I)
 	L <- split I
 	while lenth of L is greater then 0
 		remaining <- lenth of L -1
