@@ -1,6 +1,17 @@
-R=B*C+2(B+C)
-R1<-matrices(B*C)		1
-R2<-matrices(B+C)		1
-R3<-matrices(2*R2)		1
+FUNCTION multiply(matrix1, matrix2)
 
-O(3)
+FUNCTION add(matrix1, matrix2)
+
+FUNCTION takeaway(matrix1, matrix2)
+
+
+
+
+R=B*C+2(B+C)
+
+R1<-multiplication(B, C)		
+R2<-add(B, C)		
+R3<-matrices(R2, R2)
+R4<-takeaway(R1, R3)
+
+print R4
